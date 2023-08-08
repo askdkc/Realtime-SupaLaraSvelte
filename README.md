@@ -1,4 +1,4 @@
-# LaravelからSupabaseでリアルタイム変更を楽しもう
+# LaravelからSupabaseでリアルタイム更新を楽しもう
 
 ## これは何？
 
