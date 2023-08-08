@@ -160,7 +160,6 @@ http://127.0.0.1:8000 にアクセス
 
 <img width="1428" alt="image" src="https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/49512f1e-e201-4276-8b51-d964b3f1c2cf">
 
-<br>
 ### 動作GIF
 
 ![supa](https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/8788724b-3fa5-4688-a773-d69ada0eb772)
