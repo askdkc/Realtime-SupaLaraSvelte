@@ -29,16 +29,19 @@ npm i
 Supabaseに無料枠を作ってある前提で話を進めます
 
 1. ログインしてDashboardにアクセス
-<br>
+
+
 2. New Projectで新規プロジェクトを作成(NameとPasswordは適当に)
 
 <img width="707" alt="image" src="https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/82f77f67-6c8c-4084-a325-3c90f11a558c">
-<br>
+
+<br><br>
+
 3. `.env`のDATABASE関係の情報を取得：Setting（左下の歯車） > Database の Connection info を参照
 
 <img width="1426" alt="image" src="https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/3db3395c-c33a-4dc8-aa68-a07e98cf0c24">
 
-`.env`を下記のようにします
+上記を参照に`.env`を下記のようにします
 
 - Before
 ```env
@@ -59,7 +62,10 @@ DB_DATABASE=postgres
 DB_USERNAME=postgres
 DB_PASSWORD=my-supa-secret-password
 ```
+
 <br>
+
+
 4. `.env`のVITE_SUPABASE関係の情報を取得：Setting（左下の歯車） > API の API Settings を参照
 
 <img width="1426" alt="image" src="https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/8bc508f4-dd78-4a12-baa4-9f2666e06703">
