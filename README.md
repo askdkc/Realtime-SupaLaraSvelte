@@ -5,6 +5,8 @@
 SupabaseのRealtime機能を使ってユーザのステータスをリアルタイムで確認可能なサンプルアプリです🤩
 
 動きとしては、ログインしたセールス部隊が自分のステータス（フリー、顧客対応中、VIP対応中）をリアルタイムで共有する内容となっています📺
+<br>
+
 <img src="https://github.com/askdkc/Realtime-SupaLaraSvelte/assets/7894265/a6a6662c-bea5-46c7-867d-7c6c42c79948" width="640">
 
 ### 必要なもの
