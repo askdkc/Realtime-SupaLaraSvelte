@@ -51,7 +51,7 @@ jobs:
 
       - name: Laravel Setup
         run: |
-          cp .env.example .env
+          cp .env.test .env
           php artisan key:generate
           mkdir -p database
           touch database/database.sqlite
