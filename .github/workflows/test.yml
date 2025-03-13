@@ -60,4 +60,4 @@ jobs:
           npm run build
 
       - name: Execute tests
-        run: vendor/bin/pest --ci
+        run: php artisan test
