@@ -35,12 +35,6 @@ jobs:
           echo "::add-matcher::${{ runner.tool_cache }}/php.json"
           echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
 
-      - name: Remove package
-        run: |
-          composer remove "barryvdh/laravel-debugbar" --dev
-          composer remove "barryvdh/laravel-ide-helper" --dev
-          composer remove "spatie/laravel-ignition" --dev
-
       - name: Install dependencies
         run: |
           composer require "laravel/framework:${{ matrix.laravel }}" --no-interaction --no-update
